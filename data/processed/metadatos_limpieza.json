@@ -1,0 +1,35 @@
+{
+  "fecha_procesamiento": "2026-02-09 11:10:49",
+  "registros_iniciales": 5195195,
+  "registros_finales": 5195195,
+  "variables_originales": 25,
+  "variables_finales": 36,
+  "variables_nuevas": [
+    "Peso_gramos",
+    "Grupo_edad_madre",
+    "Grupo_edad_detallado",
+    "Categoria_peso",
+    "Bajo_peso",
+    "Sexo_nombre",
+    "Tipo_parto",
+    "Madre_adolescente",
+    "Madre_anosa",
+    "Primer_hijo",
+    "registro_completo"
+  ],
+  "validaciones_realizadas": {
+    "edad_madre": {
+      "rango_valido": "[10, 55]",
+      "registros_invalidos_marcados": 13471
+    },
+    "peso": {
+      "rango_valido_gramos": "[500, 6000]",
+      "registros_invalidos_marcados": 7989
+    },
+    "total_hijos": {
+      "rango_valido": "[1, 20]",
+      "registros_invalidos_marcados": 68398
+    }
+  },
+  "archivo_salida": "../data/processed/nacimientos_2009_2022_limpio.csv"
+}
