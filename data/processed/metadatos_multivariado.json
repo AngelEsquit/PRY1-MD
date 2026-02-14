@@ -1,52 +1,31 @@
 {
   "analisis": "Multivariado",
-  "fecha_ejecucion": "2026-02-13T03:03:06.293884",
+  "fecha_ejecucion": "2026-02-16T02:26:26.501945",
   "pca": {
-    "componentes_totales": 30,
-    "varianza_pc1": 0.15803507288129298,
-    "varianza_pc2": 0.1453623206830635,
-    "varianza_acumulada_2": 0.30339739356435647,
-    "componentes_para_80pct": 12
+    "componentes_totales": 7,
+    "varianza_pc1": 0.28375416751542465,
+    "varianza_pc2": 0.23484370448247785,
+    "varianza_acumulada_2": 0.5185978719979025,
+    "componentes_para_80pct": 4
   },
   "kmeans": {
-    "k_optimo": 2,
-    "silhouette_score_muestra": 0.2439411522446003,
+    "k_optimo": 4,
+    "silhouette_score_muestra": 0.25239737206177515,
     "distribucion_clusters": {
-      "0": 661504,
-      "1": 4445877
+      "0": 2258871,
+      "1": 1824614,
+      "2": 963053,
+      "3": 60843
     }
   },
   "variables_analizadas": [
-    "Diaocu",
-    "Depnap",
-    "Sexo",
-    "Depreg",
-    "Deprep",
-    "Tohivi",
-    "Depocu",
-    "Edadp",
-    "Deprem",
-    "Mesreg",
-    "Mupocu",
-    "Tohinm",
-    "Tipar",
-    "Mesocu",
-    "Escivp",
-    "Libras",
-    "Tohite",
-    "Onzas",
-    "A\u00f1oreg",
-    "Asisrec",
-    "Depnam",
-    "Sitioocu",
-    "Escivm",
     "Edadm",
-    "A\u00f1oocu",
     "Peso_gramos",
-    "Bajo_peso",
-    "Madre_adolescente",
-    "Madre_anosa",
-    "Primer_hijo"
+    "Deprem",
+    "Tohite",
+    "Sexo",
+    "Tipar",
+    "Depreg"
   ],
   "registros_analizados": 5107381
 }

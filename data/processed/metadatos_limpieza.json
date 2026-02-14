@@ -1,5 +1,5 @@
 {
-  "fecha_procesamiento": "2026-02-09 11:10:49",
+  "fecha_procesamiento": "2026-02-13 00:51:27",
   "registros_iniciales": 5195195,
   "registros_finales": 5195195,
   "variables_originales": 25,
@@ -13,7 +13,7 @@
     "Sexo_nombre",
     "Tipo_parto",
     "Madre_adolescente",
-    "Madre_anosa",
+    "Madre_35_mas",
     "Primer_hijo",
     "registro_completo"
   ],
@@ -31,5 +31,5 @@
       "registros_invalidos_marcados": 68398
     }
   },
-  "archivo_salida": "../data/processed/nacimientos_2009_2022_limpio.csv"
+  "archivo_salida": "..\\data\\processed\\nacimientos_2009_2022_limpio.csv"
 }
